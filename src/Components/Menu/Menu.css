@@ -1,15 +1,20 @@
 .menu {
-  /* position: fixed;
-  top: 0;
-  left: 0; */
-  /* height: 100%; */
   width: 250px;
   background-color: var(--dark-color);
+}
+
+.navigate {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: calc(100% - 90px);
 }
 
 .logo {
   min-width: 214px;
   text-align: center;
+  box-shadow: 11px -21px 31px var(--white-color);
 }
 
 .logo__img {
@@ -18,7 +23,11 @@
   object-fit: cover;
 }
 
-.list {
+.list-nav {
+  padding-top: 50px;
+}
+
+.list-nav .list-mod {
   list-style-type: none;
   padding-left: 15px;
 }
@@ -29,7 +38,14 @@
   gap: 5px;
   align-items: center;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
   color: var(--white-color);
+  transition: all 0.3s ease;
+}
+
+.list__link:hover {
+  color: #dedb26bd;
+  transition: all 0.3s ease;
 }
 
 .list__img {
