@@ -1,0 +1,38 @@
+.menu {
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  /* height: 100%; */
+  width: 250px;
+  background-color: var(--dark-color);
+}
+
+.logo {
+  min-width: 214px;
+  text-align: center;
+}
+
+.logo__img {
+  padding: 10px 0;
+  width: 214px;
+  object-fit: cover;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.list__link {
+  height: 50px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.list__img {
+  width: 20px;
+  height: 20px;
+}
